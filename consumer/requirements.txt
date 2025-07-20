@@ -1,0 +1,10 @@
+SQLAlchemy
+confluent-kafka
+fastapi
+kafka-python
+postgres
+requests
+uvicorn
+Authlib
+python-multipart
+pyjwt

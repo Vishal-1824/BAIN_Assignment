@@ -1,0 +1,8 @@
+confluent-kafka
+fastapi
+kafka-python
+pandas
+uvicorn
+Authlib
+python-multipart
+pyjwt
