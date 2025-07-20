@@ -5,13 +5,17 @@
 - Kafka Consumer Service
 - Kafka Producer Service
 - Postgres Database Service (for persistent database)
+- NLP Interpreter for SQL Query 
 - Data Visualization Service (for data visualization)
+- API Authentication and Authorization via JWT
+- Streamlit App for Application UI
 
 ## Technologies Used
 - Kafka
 - Postgres
 - Python | FASTAPI
 - Docker | Docker Compose
+- Streamlit
 
 ## Pre-requisites
 - Docker
@@ -40,10 +44,14 @@ You can now access the services at the following URLs:
 KUI_PORT=8080
 PRODUCER_PORT=8001
 CONSUMER_PORT=8002
+GEN_AI_PORT=8003
+STREAMLIT_PORT=8501
 POSTGRES_PORT=5432
 PGADMIN_PORT=8081
 ```
 - Kafka Broker UI: `localhost:8080`
 - Producer Service: `localhost:8001/docs`
 - Consumer Service: `localhost:8002/docs`
+- GEN AI Service: `localhost:8003/docs`
+- Streamlit App: `localhost:8501`
 - PGAdmin: `localhost:8081`
